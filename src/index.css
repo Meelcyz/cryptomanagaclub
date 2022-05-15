@@ -1,0 +1,176 @@
+:root {
+  --purple: #9c48c3;
+  --pink: #ff2b53;
+  --white: #ffffff;
+}
+
+
+
+@font-face {
+  font-family: "Poisoned-hard";
+  src: url("./assets/fonts/the_poisoned_heart.eot");
+  src: url("./assets/fonts/the_poisoned_heart.woff") format("woff"),
+  url("./assets/fonts/the_poisoned_heart.otf") format("opentype"),
+  url("./assets/fonts/the_poisoned_heart.svg#the_poisoned_heart") format("svg");
+  }
+
+body {
+  background: rgb(155,72,177);
+  background: linear-gradient(90deg, rgba(155,72,177,1) 24%, rgba(14,123,182,1) 93%);
+}
+
+header {
+  padding: 35px 0;
+}
+
+.btn-primary {
+  background: var(--pink);
+  border: 3px solid var(--white);
+  font-weight: 600;
+}
+
+.btn:hover {
+  background-color: #f8da35;
+  border-color: #ffffff;
+}
+
+.main_banner {
+  color: #fff;
+  position: relative;
+}
+
+.main_banner h1 {
+  font-family: 'Poisoned-hard', sans-serif !important;
+  position: relative;
+}
+
+span.heading_1 {
+  display: block;
+  font-size: 28px;
+  margin-bottom: 50px;
+}
+
+span.heading_2 {
+  position: absolute;
+  font-size: 16px;
+  top: 42px;
+  left: 145px;
+}
+
+span.heading_3 {
+  display: block;
+  font-size: 70px;
+}
+
+.social_icons {display: inline-block;margin-right: 15px;}
+
+.social_icons a {display: inline-block;margin-right: 10px;}
+
+.main_menu button {
+  font-size: 14px;
+  font-weight: 600;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+h1.numbers {
+  font-size: 28px;
+  margin: 40px 0;
+}
+
+img.banner_img {
+  position: absolute;
+  max-width: 58.3333333%;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -25px;
+}
+
+.cm_counts {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.cm_counts span {
+  font-weight: bold;
+  display: inline-block;
+  padding: 7px 10px;
+}
+
+/* @media(min-width: 768px) {
+  img.banner_img {
+    position: absolute;
+    max-width: 58.3333333%;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -25px;
+  }
+} */
+
+@media(max-width: 991px) {
+  .main_banner p br {
+    display: none !important;
+}
+}
+
+@media(max-width: 767px) {
+  header {
+    padding: 15px 0;
+    margin-bottom: 40px;
+}
+  header .container {
+    max-width: 100% !important;
+}
+
+  img.banner_img {
+    max-width: 53%;
+    top: -40px;
+    transform: none;
+    left: -30px;
+  }
+
+  h1.cm_title {
+    width: 50%;
+    margin-left: 50%;
+    margin-bottom: 90px;
+}
+}
+
+
+
+@media(max-width: 586px) {
+  .social_icons {
+    margin-bottom: 20px;
+}
+
+span.heading_3 {
+  font-size: 52px;
+}
+
+span.heading_1 {
+  font-size: 21px;
+}
+
+span.heading_2 {
+  font-size: 14px;
+  top: 32px;
+  left: 110px;
+}
+
+h1.cm_title {
+  margin-bottom: 50px;
+}
+
+.center_mobile {
+  text-align: center;
+}
+}
+
+
+@media(min-width: 1930px) {
+  .main_banner {
+    min-height: calc(100vh - 166px);
+    display: flex;
+    align-items: center;
+}
+}
