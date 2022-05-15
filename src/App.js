@@ -149,7 +149,7 @@ function App() {
                           -
                         </button>
                         <span>
-                          {amount} for {amount * formattedPrice}
+                          {amount} for {amount * formattedPrice} MATIC
                         </span>
                         <button
                           onClick={() => increase()}
