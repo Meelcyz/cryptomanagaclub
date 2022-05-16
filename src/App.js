@@ -82,20 +82,25 @@ function App() {
             <div className="col-9 text-end">
               <div className="main_menu">
                 <div className="social_icons">
-                  <a href="#">
+                  <a href="https://www.instagram.com/cryptomangaclub/">
                     <img src={instagramIcon} />
                   </a>
-                  <a href="#">
+                  <a href=":https://www.facebook.com/cryptomangaclub">
                     <img src={facebookIcon} />
                   </a>
-                  <a href="#">
+                  <a href="https://discord.com/invite/Sb2424Bf">
                     <img src={discordIcon} />
                   </a>
-                  <a href="#">
+                  <a href="https://opensea.io/collection/crypto-manga-club">
                     <img src={openSeaIcon} />
                   </a>
                 </div>
-                <button className="btn btn-primary">JOIN OUR DISCORD</button>
+                <button
+                  href="https://discord.com/invite/Sb2424Bf"
+                  className="btn btn-primary"
+                >
+                  JOIN OUR DISCORD
+                </button>
               </div>
             </div>
           </div>
