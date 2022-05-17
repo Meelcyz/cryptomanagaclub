@@ -125,11 +125,12 @@ function App() {
               <div className="center_mobile">
                 <p>
                   <b>
-                    Lorem ipsum dolor sit amet, consectetur
+                    CMC is a collection of 10500 NFTs blurring the lines between your life and the life of your dreams. <br />
+                     This collection comprises 2D manga’s, a 3D mega mansion with all kinds of cars, activities and much more! What are you waiting for? Come join the party, baby💗💋
                     <br />
-                    adipiscing elit. In dictum, nunc et ultrices <br />
-                    pellentesque, erat metus gravida enim, <br />
-                    ac cursus dui risus vel massa.
+                   What are you waiting for? Come join the party, baby💗💋
+                    <br />
+Come join the party, baby💗💋
                   </b>
                 </p>
 
