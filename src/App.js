@@ -126,9 +126,9 @@ function App() {
                 <p>
                   <b>
                     CMC is a collection of 10500 NFTs blurring the lines between your life and the life of your dreams. <br />
-                     This collection comprises 2D manga’s, a 3D mega mansion with all kinds of cars, activities and much more! What are you waiting for? Come join the party, baby💗💋
+                     This collection comprises 2D manga’s, a 3D mega mansion with all kinds of cars, activities and much more! What are you waiting for? 
                     <br />
-                   What are you waiting for? Come join the party, baby💗💋
+                   What are you waiting for?
                     <br />
 Come join the party, baby💗💋
                   </b>
